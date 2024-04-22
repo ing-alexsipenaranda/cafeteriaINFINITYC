@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog de Cafe</title>
+    <meta name="description" content="Pagina web para un blog de cafe">
+
+    <!--prefetch-->
+    <link rel="prefetch" href="nosotros.html" as="document">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+        <!--Preload-->
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css" type="text/css">
+
+    <link rel="preload" href="css/style.css" as="style">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+   
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" as="font"
+    crossorigin="crossorigin">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+    <link rel="preload" href="img/blog1.jpg" as="image">
+
+</head>
+<body>
+
+
+
+<header class="header">
+
+    <div class="contenedor">
+        <div class="barra">
+            <a href="index.html" class="logo">
+                <h1  class="logo_nombre no-margin centrar-texto">Café<span class="logo_bold">INFINITYC</span></h1>
+            </a>
+            <nav class="navegacion">
+            </nav>
+            <a href="nosotros.html" class="navegacion_enlace">Nosotros</a>
+            <a href="cursos.html" class="navegacion_enlace">Cursos</a>
+            <a href="contacto.html" class="navegacion_enlace">Contacto</a>
+            </nav>
+        </div>
+    </div>
+
+    <div class="header_texto">
+        <h2 class="no-margin">Blog de Café INFINITYC</h2>
+        <p class="no-margin">Aprende de los expertos con las mejores recetas y consejos</p>
+
+    </div>
+</header>
+
+<div class="contenedor contenido-principal">
+    <main class="blog">
+        <h3>Nuestro Blog</h3>
+        <article class="entrada">
+            <div class="entrada_imagen">
+
+                <picture>
+                    <source loading="lazy" srcset="img/blog1.webp" type="image/webp">
+                    <img loading="lazy" src="img/blog1.jpg" alt="Imagen entrada blog">
+                </picture>
+            </div>
+            <div class="entrada_contenido">
+                <h4 class="no-margin">Tipos de granos de café</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam architecto libero, tenetur cupiditate iusto maxime inventore omnis deserunt in, praesentium, porro aliquid aperiam. Perferendis ullam ad officia veniam, ducimus alias!</p>
+                <a href="entrada.html" class="boton boton--primario ">Leer Entrada</a>
+            </div>
+        </article>
+        <article class="entrada">
+            <div class="entrada_imagen">
+                <picture>
+                    <source loading="lazy" srcset="img/blog2.webp" type="image/webp">
+                    <img loading="lazy" src="img/blog2.jpg" alt="Imagen entrada blog">
+                </picture>
+                </div>
+            <div class="entrada_contenido">
+                <h4 class="no-margin">3 Deliciosas Recetas de Café</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam architecto libero, tenetur cupiditate iusto maxime inventore omnis deserunt in, praesentium, porro aliquid aperiam. Perferendis ullam ad officia veniam, ducimus alias!</p>
+                <a href="entrada.html" class="boton boton--primario ">Leer Entrada</a>
+            </div>
+        </article>
+        <article class="entrada">
+            <div class="entrada_imagen">
+                <picture>
+                    <source  loading="lazy" srcset="img/blog3.webp" type="image/webp">
+                    <img loading="lazy" src="img/blog3.jpg" alt="Imagen entrada blog">
+                </picture>
+            </div>
+            <div class="entrada_contenido">
+                <h4 class="no-margin">Beneficios de Grano de Café</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam architecto libero, tenetur cupiditate iusto maxime inventore omnis deserunt in, praesentium, porro aliquid aperiam. Perferendis ullam ad officia veniam, ducimus alias!</p>
+                <a href="entrada.html" class="boton boton--primario ">Leer Entrada</a>
+            </div>
+        </article>
+    
+    
+    </main>
+    <aside class="sidebar">
+    <h3>Nuestros Cursos y Talleres</h3>
+
+        <ul class="cursos no-padding">
+            <li class="widget-curso">
+                <h4 class="no-margin">Tecnicas de extraccion de café </h4>
+                <p class="widget-curso_label">Precio: 
+                    <span class="widget-curso__info">Gratis</span>
+                </p>
+                <p class="widget-curso_label">Cupo: 
+                    <span class="widget-curso__info">20</span>
+                </p>
+                <a href="entrada.html" class="boton boton--segundario ">Mas informacion sobre nuestros cursos</a>
+
+            </li>
+            <li class="widget-curso">
+                <h4 class="no-margin">4 Recetas de café para principiantes</h4>
+                <p class="widget-curso_label">Precio: 
+                    <span class="widget-curso__info">Gratis</span>
+                </p>
+                <p class="widget-curso_label">Cupo: 
+                    <span class="widget-curso__info">20</span>
+                </p>
+                <a href="entrada.html" class="boton boton--segundario ">Mas informacion sobre nuestros cursos</a>
+
+            </li>
+        </ul>
+
+    </aside>
+</div>
+
+    <footer class="footer">
+        <div class="contenedor">
+            <div class="barra">
+                <a href="index.html" class="logo">
+                    <h1  class="logo_nombre no-margin centrar-texto">Café<span class="logo_bold">INFINITYC</span></h1>
+                </a>
+                <nav class="navegacion">
+                </nav>
+                <a href="nosotros.html" class="navegacion_enlace">Nosotros</a>
+                <a href="cursos.html" class="navegacion_enlace">Cursos</a>
+                <a href="contacto.html" class="navegacion_enlace">Contacto</a>
+                </nav>
+            </div>
+        </div>
+    </footer>
+<script src="js/modernizr.js"></script>
+</body>
+</html>
